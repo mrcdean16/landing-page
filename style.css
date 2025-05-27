@@ -102,7 +102,62 @@ button.signup {
   flex-shrink: 0;
 }
 
+.information {
+    padding: 30px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display:flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.item {
+    max-width:200px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.img-placeholder {
+    width:150px;
+    height:150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.item .text {
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-height: 40px; /* or whatever height fits two lines of text comfortably */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    color:rgba(66, 66, 66, 0.726);
+  }
+  
+
+
+
+
+
+
+
+
 /* Modal styles (unrelated but kept for completeness) */
+/* 
 .modal {
   background: white;
   width: 480px;
@@ -158,4 +213,4 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
+} */
