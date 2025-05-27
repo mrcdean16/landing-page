@@ -165,7 +165,7 @@ button.signup {
     color: #1F2937;
     text-align:left;
     font-style:italic;
-    font-weight:300;
+    font-weight:light;
     padding: 100px;
     width:1000px;
 }
@@ -178,9 +178,44 @@ button.signup {
     font-style:normal;  
 }
 
+.action-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
+.action-container {
+    background-color: #3882F6;
+    padding: 40px;  
+    margin: 80px;
+    max-width:1000px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius:10px;
+    gap: 16px;
+    color:white;
+}
 
+.text-block {
+    display:flex;
+    flex-direction:column;
+}
 
+.action-text {
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.action-signup {
+    background-color:transparent;
+    padding: 8px 24px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color:white;
+    font-weight:bold;
+}
 
 
 /* Modal styles (unrelated but kept for completeness) */
